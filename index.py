@@ -64,17 +64,17 @@ def theQuizGame():
             img = PhotoImage(file="great.png")
             labelimage.configure(image=img)
             labelimage.image = img
-            labelresulttext.configure(text="You Are Excellent !!")
+            labelresulttext.configure(text="You Are Excellent !!\nYou scored: "+str(score))
         elif (score >= 10 and score < 20):
             img = PhotoImage(file="ok.png")
             labelimage.configure(image=img)
             labelimage.image = img
-            labelresulttext.configure(text="You Can Be Better !!")
+            labelresulttext.configure(text="You Can Be Better !!\nYou scored: "+str(score))
         else:
             img = PhotoImage(file="bad.png")
             labelimage.configure(image=img)
             labelimage.image = img
-            labelresulttext.configure(text="You Should Work Hard !!")
+            labelresulttext.configure(text="You Should Work Hard !!\nYou scored: "+str(score))
 
     # calculation the marks he scored by giving each correct answer 5 marks 
     def calc():
