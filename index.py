@@ -538,7 +538,7 @@ def jumbledWords():
 
 master = Tk()
 master.title("Brain Games")
-icon = PhotoImage(file = "F:/Project/masterIcon.png")
+icon = PhotoImage(file = "masterIcon.png")
 master.iconphoto(True, icon)
 master.geometry("1150x580")
 master.resizable(False, False)
